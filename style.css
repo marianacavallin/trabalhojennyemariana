@@ -117,8 +117,6 @@ header {
 .item h3 {
     color: var(--vermelho-habibs);
 }
-
-/* ===== Promoções ===== */
 .promocoes {
     background: #f7f7f7;
     padding: 60px 5%;
@@ -131,7 +129,6 @@ header {
     max-width: 600px;
 }
 
-/* ===== Sobre ===== */
 .sobre {
     padding: 60px 10%;
     background-color: var(--vermelho-habibs);
@@ -139,7 +136,7 @@ header {
     text-align: center;
 }
 
-/* ===== Footer ===== */
+
 footer {
     background: var(--preto);
     color: var(--branco);
@@ -148,7 +145,6 @@ footer {
     
 }
 
-/* ===== Responsividade ===== */
 @media (max-width: 1024px) {
     .banner h1 {
         font-size: 2.5rem;
@@ -181,3 +177,6 @@ footer {
     color: var(--dourado);
   }
   
+.logo img{
+    border-radius: 25%;
+}
